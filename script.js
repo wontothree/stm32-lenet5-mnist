@@ -123,7 +123,7 @@ let model = null;
 // 모델을 비동기로 미리 불러오기
 async function loadModel() {
   try {
-    model = await tf.loadLayersModel('./lenet5_mnist.json');
+    model = await tf.loadLayersModel('./output/model.json');
     console.log("모델 로드 완료");
   } catch (e) {
     console.error("모델 로드 실패:", e);
