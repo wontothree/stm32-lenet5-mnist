@@ -3,7 +3,7 @@ from tensorflow.keras import datasets, models
 import matplotlib.pyplot as plt
 import random
 
-model = models.load_model("lenet_mnist.h5")
+model = models.load_model("lenet5_mnist.h5")
 print("Complete to load LeNet-5!")
 
 # MNIST 데이터 불러오기 및 전처리
